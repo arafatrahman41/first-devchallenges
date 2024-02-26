@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FAFAF9;
+    @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap')
+}
+.reviewers-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    align-items: center;
+    font-family: "Sora", sans-serif;
+}
+.star-container{
+ width: 46%;
+}
+.star-logo .fa-solid{
+    border: 1px solid #F5C044;
+    background-color: #db9b04;
+    color: #fddd91;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.reviewers-container .star-container h2{
+   font-size: 2.25rem; 
+   margin-bottom: 25px;
+   color: #18181B;
+}
+.reviewers-container .star-container>p{
+    font-size: 1.25rem;
+    margin-bottom: 35px;
+    color: #52525A;
+}
+.reviewers-container .star-container .checklists div{
+    display: flex;
+    gap: 10px;
+    color: #52525A;
+}
+
+
+
+
+.card-container{
+    width: 46%;
+    position: relative;
+   
+}
+.reviewers-container .card-container .card{
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px #c4c4c4;
+    padding: 40px 50px 40px 25px;
+    
+}
+.reviewers-container .card-container .card div{
+    display: flex;
+    gap: 10px;
+   
+}
+.reviewers-container .card-container .card div img{
+    height: 30px;
+}
+
+.samantha-lee{
+    margin-bottom: 30px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 200px;
+}
+.samantha-lee h3{
+    margin: 20px 0 15px 0;
+}
+.rachel-patel{
+    position: absolute;
+}
+.rachel-patel h3{
+     margin: 20px 0 15px 0;
+}
+
+@media screen and (max-width: 640px) {
+    .reviewers-container{
+        flex-direction: column;
+    }
+    .star-container{
+        width: 100%;
+    }
+    .card-container{
+        width: 100%;
+    }
+    .samantha-lee{
+        margin-left: 150px;
+    }
+}
+
+
